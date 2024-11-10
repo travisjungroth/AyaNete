@@ -1,0 +1,27 @@
+Put dope filler text
+    DONE Packages
+    DONE About
+    DONE Contact
+    DONE Location
+Format better
+    Packages
+    About
+Fill in text
+
+
+
+Definition of done
+    Site
+        Home
+        Packages | Services
+        About | Features/Services
+            Family
+        Location | Office
+        Contact
+            Email link
+
+    Readme
+    Using Hugo theme
+    Call it Ayahuasca Center
+    Spanish and English
+    Hosted on GitHub

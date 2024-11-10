@@ -1,0 +1,130 @@
+disabled = false
+languageCode = 'en'
+languageName = 'English'
+title = 'Ayahuasca Center' # This will go in the Header as well
+contentDir = "content/en"
+
+
+# Change single params to "false" to remove from rendering
+[params]
+  subtitle = "Paohyan, Peru" # This goes in the header and in the site title
+  # PAGES
+  [params.homepage]
+    # Notice that SEO meta tags (what appears in google search results) can be set
+    # in individual pages frontmatters `/content/<page>`
+    ###
+    title = "Ayahuasca Center"
+    # You can use some markdown safely here as long as you don't include line breaks
+    intro= """
+### Authentic Ayahuasca dietas in the Amazon.
+___
+
+[Some sweet intro copy]
+        """
+    mainButton = "Packages"
+    mainButtonRef = "packages" # Just write the name or slug of the page here
+    secondButton = "Contact"
+    secondButtonRef = "contact" # Just write the name or slug of the page here
+
+[params.contact]
+  title = "Get in touch!"
+  formCallToAction = "[Form description]"
+  socialCallToAction = "[Social call to action]!" # These are the same as in [params.social]
+  [params.contact.form]
+    formspreeLink = "https://formspree.io/f/xkgnrajg"
+    firstname = "First Name*"
+    lastname = "Last Name*"
+    email = "E-mail*"
+    phone = "Phone Number"
+    Inquiry = "Inquiry*"
+    submitBtn = "Submit"
+
+[params.packages]
+  title = "Packages"
+  description = """[Packages]"""
+  [params.packages.list]
+    [params.packages.list.0]
+      title= "8 Day Ayahuasca Retreat"
+      description= "[8 days]"
+    [params.packages.list.01]
+      title = "11 Day Master Plant Dieta"
+      description= "[11 days]"
+    [params.packages.list.02]
+      title = "20 Day Master Plant Dieta"
+      description= "[20 days]"
+    [params.packages.list.03]
+      title = "32 Day Master Plant Dieta"
+      description= "[32 Days]"
+    [params.packages.list.04]
+      title = "Custom Stays"
+      description= "We can accomodate different lengths or longer stays. Just ask!"
+
+[params.location]
+  title = "Location"
+ description = "[Location text]"
+ buttonText = "Get directions"
+ buttonLink = "https://maps.app.goo.gl/LzsPzRkTYSZ8SF3y8" # google maps "share" link here (for button)
+ mapLink = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31619.904959217703!2d-75.0292585!3d-7.8438707999999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91a4a1fc58da4da3%3A0x9cdf2d43604c166e!2sKene%20Nete%20Healing%20Center!5e0!3m2!1sen!2sus!4v1731264241456!5m2!1sen!2sus" # google maps "embed" link here
+
+
+[params.about]
+  title = "About"
+  description = """[About]"""
+  [params.about.list]
+    [params.about.list.0]
+      title= "Olinda"
+      description= "[Olinda Text]"
+
+[params.socials]
+  enabled = true # enables/disables the whole social section in the footer
+  callToAction= "Get connected with us on social networks >"
+      [[params.socials.link]]
+        name = "facebook"
+        link = "[facebook]"
+      [[params.socials.link]]
+        name = "instagram"
+        link = "[instagram]"
+      [[params.socials.link]]
+        name = "whatsapp"
+        link = "[instagram]"
+      # You can add other socials here by copypasting the above section and
+      # selecting the right name for the icon from here https://icons.getbootstrap.com/
+
+[params.footer]
+  [params.footer.navigate]
+  heading = "Navigate"   
+  [params.footer.contacts]
+  enabled = true # enables/disables the whole contacts section in footer
+  heading = "Contact"
+  mail = "jungroth@gmail.com"
+  phone = "+1-707-812-4818"
+  
+[params.notfound]
+  title = "404, page not found" # text for 404 page
+
+[params.single] # for posts pages (visible only if posts are rendered)
+  similarContent= "Similar Content"
+  toc= "Table of Contents"
+
+[menus]
+# PageRef should refer to the "translationKey" in `/content/<page>` frontmatter, names can be changed freely
+  [[menus.main]]
+  name = "Home"
+  pageRef = "/"
+  weight = 1
+  [[menus.main]]
+  name = "Packages"
+  pageRef = "pages/packages"
+  weight = 2
+  [[menus.main]]
+  name = "About Us"
+  pageRef = "pages/about"
+  weight = 3
+  [[menus.main]]
+  name = "Location"
+  pageRef = "pages/location"
+  weight = 4
+  [[menus.main]]
+  name = "Contact"
+  pageRef = "pages/contact"
+  weight = 5

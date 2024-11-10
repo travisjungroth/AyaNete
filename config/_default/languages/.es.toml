@@ -1,0 +1,130 @@
+disabled = false
+languageCode = 'es'
+languageName = 'Español'
+title = 'Centro de Ayahuasca' # This will go in the Header as well
+contentDir = "content/es"
+
+
+# Change single params to "false" to remove from rendering
+[params]
+  subtitle = "Paohyan, Perú" # This goes in the header and in the site title
+  # PAGES
+  [params.homepage]
+    # Notice that SEO meta tags (what appears in google search results) can be set
+    # in individual pages frontmatters `/content/<page>`
+    ###
+    title = "Centro de Ayahuasca"
+    # You can use some markdown safely here as long as you don't include line breaks
+    intro= """
+### Dietas auténticas de ayahuasca en el Amazonas.
+___
+
+[Un poco de texto introductorio]
+        """
+    mainButton = "Paquetes"
+    mainButtonRef = "paquetes" # Just write the name or slug of the page here
+    secondButton = "Contacto"
+    secondButtonRef = "contacto" # Just write the name or slug of the page here
+
+[params.contact]
+  title = "¡Contáctanos!"
+  formCallToAction = "[Descripción del formulario]"
+  socialCallToAction = "[Llamado a la acción social]!" # These are the same as in [params.social]
+  [params.contact.form]
+    formspreeLink = "https://formspree.io/f/xkgnrajg"
+    firstname = "Nombre*"
+    lastname = "Apellido*"
+    email = "Correo electrónico*"
+    phone = "Número de teléfono"
+    Inquiry = "Consulta*"
+    submitBtn = "Enviar"
+
+[params.packages]
+  title = "Paquetes"
+  description = """[Paquetes]"""
+  [params.packages.list]
+    [params.packages.list.0]
+      title= "Retiro de Ayahuasca de 8 días"
+      description= "[8 días]"
+    [params.packages.list.01]
+      title = "Dieta de Planta Maestra de 11 días"
+      description= "[11 días]"
+    [params.packages.list.02]
+      title = "Dieta de Planta Maestra de 20 días"
+      description= "[20 días]"
+    [params.packages.list.03]
+      title = "Dieta de Planta Maestra de 32 días"
+      description= "[32 días]"
+    [params.packages.list.04]
+      title = "Estancias Personalizadas"
+      description= "Podemos acomodar diferentes duraciones o estancias más largas. ¡Solo pregunta!"
+
+[params.location]
+  title = "Ubicación"
+  description = "[Texto sobre la ubicación]"
+  buttonText = "Obtener indicaciones"
+  buttonLink = "https://maps.app.goo.gl/LzsPzRkTYSZ8SF3y8" # google maps "share" link here (for button)
+  mapLink = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31619.904959217703!2d-75.0292585!3d-7.8438707999999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91a4a1fc58da4da3%3A0x9cdf2d43604c166e!2sKene%20Nete%20Healing%20Center!5e0!3m2!1sen!2sus!4v1731264241456!5m2!1sen!2sus" # google maps "embed" link here
+
+
+[params.about]
+  title = "Acerca De"
+  description = """[Sobre nosotros]"""
+  [params.about.list]
+    [params.about.list.0]
+      title= "Olinda"
+      description= "[Texto sobre Olinda]"
+
+[params.socials]
+  enabled = true # enables/disables the whole social section in the footer
+  callToAction= "Conéctate con nosotros en redes sociales >"
+      [[params.socials.link]]
+        name = "facebook"
+        link = "[facebook]"
+      [[params.socials.link]]
+        name = "instagram"
+        link = "[instagram]"
+      [[params.socials.link]]
+        name = "whatsapp"
+        link = "[whatsapp]"
+      # You can add other socials here by copypasting the above section and
+      # selecting the right name for the icon from here https://icons.getbootstrap.com/
+
+[params.footer]
+  [params.footer.navigate]
+  heading = "Navegar"
+  [params.footer.contacts]
+  enabled = true # enables/disables the whole contacts section in footer
+  heading = "Contacto"
+  mail = "jungroth@gmail.com"
+  phone = "+1-707-812-4818"
+
+[params.notfound]
+  title = "404, página no encontrada" # text for 404 page
+
+[params.single] # for posts pages (visible only if posts are rendered)
+  similarContent= "Contenido Similar"
+  toc= "Tabla de Contenidos"
+
+[menus]
+# PageRef should refer to the "translationKey" in `/content/<page>` frontmatter, names can be changed freely
+  [[menus.main]]
+  name = "Inicio"
+  pageRef = "/"
+  weight = 1
+  [[menus.main]]
+  name = "Paquetes"
+  pageRef = "pages/es/packages"
+  weight = 2
+  [[menus.main]]
+  name = "Acerca De"
+  pageRef = "pages/es/about"
+  weight = 3
+  [[menus.main]]
+  name = "Ubicación"
+  pageRef = "pages/es/location"
+  weight = 4
+  [[menus.main]]
+  name = "Contacto"
+  pageRef = "pages/es/contact"
+  weight = 5
