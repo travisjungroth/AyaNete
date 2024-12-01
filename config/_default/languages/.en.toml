@@ -1,19 +1,19 @@
 disabled = false
 languageCode = 'en'
 languageName = 'English'
-title = 'Ayahuasca Center' # This will go in the Header as well
+title = 'Ayahuasca Nete' # This will go in the Header as well
 contentDir = "content/en"
 
 
 # Change single params to "false" to remove from rendering
 [params]
-  subtitle = "Paohyan, Peru" # This goes in the header and in the site title
+  subtitle = "Paoyhan, Peru" # This goes in the header and in the site title
   # PAGES
   [params.homepage]
     # Notice that SEO meta tags (what appears in google search results) can be set
     # in individual pages frontmatters `/content/<page>`
     ###
-    title = "Ayahuasca Center"
+    title = "Ayahuasca Nete"
     # You can use some markdown safely here as long as you don't include line breaks
     intro= """
 ### Authentic Ayahuasca dietas in the Amazon.
@@ -29,7 +29,7 @@ ___
 [params.contact]
   title = "Get in touch!"
   formCallToAction = "[Form description]"
-  socialCallToAction = "[Social call to action]!" # These are the same as in [params.social]
+#  socialCallToAction = "[Social call to action]" # These are the same as in [params.social]
   [params.contact.form]
     formspreeLink = "https://formspree.io/f/xkgnrajg"
     firstname = "First Name*"
@@ -62,8 +62,8 @@ ___
 [params.location]
   title = "Location"
  description = "[Location text]"
- buttonText = "Get directions"
- buttonLink = "https://maps.app.goo.gl/LzsPzRkTYSZ8SF3y8" # google maps "share" link here (for button)
+ buttonText = "Find flights to Pucallpa, Peru"
+ buttonLink = "https://www.google.com/travel/flights"
  mapLink = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31619.904959217703!2d-75.0292585!3d-7.8438707999999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91a4a1fc58da4da3%3A0x9cdf2d43604c166e!2sKene%20Nete%20Healing%20Center!5e0!3m2!1sen!2sus!4v1731264241456!5m2!1sen!2sus" # google maps "embed" link here
 
 

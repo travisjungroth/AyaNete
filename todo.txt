@@ -1,8 +1,5 @@
-Put dope filler text
-    DONE Packages
-    DONE About
-    DONE Contact
-    DONE Location
+DONE Update name
+Hide language menu
 Format better
     Packages
     About
@@ -22,6 +19,6 @@ Definition of done
 
     Readme
     Using Hugo theme
-    Call it Ayahuasca Center
-    Spanish and English
+    Call it Ayahuasca Nete
+    English
     Hosted on GitHub

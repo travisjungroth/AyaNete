@@ -31,37 +31,38 @@
             <a class="nav-link nav-menu text-nowrap" href="{{ .URL }}">{{.Name}}</a>
           </li>
           {{ end }}
-          <li class="vr ms-1 d-none d-lg-block"></li>
-          {{ if hugo.IsMultilingual}}
-          {{if .IsTranslated}}
-          <li class="nav-item dropdown">
-            <a
-              class="nav-link nav-trad dropdown-toggle d-flex align-items-center justify-content-center"
-              href="#"
-              id="navbarDropdown"
-              role="button"
-              data-bs-toggle="dropdown"
-              aria-haspopup="true"
-              aria-expanded="false"
-            >
-              <i class="bi bi-globe me-1"></i>
-              {{.Site.Language.LanguageName}}
-              <!-- <i class="bi bi-caret-down-fill ms-1"></i> -->
-            </a>
+<!--          Hide langauge while only doing english-->
+<!--          <li class="vr ms-1 d-none d-lg-block"></li>-->
+<!--          {{ if hugo.IsMultilingual}}-->
+<!--          {{if .IsTranslated}}-->
+<!--          <li class="nav-item dropdown">-->
+<!--            <a-->
+<!--              class="nav-link nav-trad dropdown-toggle d-flex align-items-center justify-content-center"-->
+<!--              href="#"-->
+<!--              id="navbarDropdown"-->
+<!--              role="button"-->
+<!--              data-bs-toggle="dropdown"-->
+<!--              aria-haspopup="true"-->
+<!--              aria-expanded="false"-->
+<!--            >-->
+<!--              <i class="bi bi-globe me-1"></i>-->
+<!--              {{.Site.Language.LanguageName}}-->
+<!--              &lt;!&ndash; <i class="bi bi-caret-down-fill ms-1"></i> &ndash;&gt;-->
+<!--            </a>-->
 
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              
-              
-              {{ range .Translations }}
-              
-              <a class="dropdown-item nav-item nav-link nav-trad text-center" href="{{.Permalink}}">
-                {{.Site.Language.LanguageName}}
-              </a>
-              {{end}}
-              {{end}}
-            </div>
-          </li>
-          {{ end }}
+<!--            <div class="dropdown-menu" aria-labelledby="navbarDropdown">-->
+
+
+<!--              {{ range .Translations }}-->
+
+<!--              <a class="dropdown-item nav-item nav-link nav-trad text-center" href="{{.Permalink}}">-->
+<!--                {{.Site.Language.LanguageName}}-->
+<!--              </a>-->
+<!--              {{end}}-->
+<!--              {{end}}-->
+<!--            </div>-->
+<!--          </li>-->
+<!--          {{ end }}-->
         </ul>
       </div>
     </div>

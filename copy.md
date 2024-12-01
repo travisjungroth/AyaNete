@@ -83,7 +83,7 @@ Mention the hotel.
 # Our Team
 ## Shamans
 ### Olinda
-Olinda is the matriarch of the family. She's been at every ceremony at Paohyan Ayahuasca.
+Olinda is the matriarch of the family. She's been at every ceremony at Paoyhan Ayahuasca.
 
 ### Robert
 He comes to about half the ceremonies.
@@ -93,7 +93,7 @@ He comes to most ceremonies. He's Olinda's son-in-law.
 
 ## Support
 ### Gladys
-Gladys is Olinda's daughter and will help you get from Pucallpa to Paohyan.
+Gladys is Olinda's daughter and will help you get from Pucallpa to Paoyhan.
 
 ### Jilmer
 Jilmer is Olinda's son. He'll be one of your main contacts during your stay.

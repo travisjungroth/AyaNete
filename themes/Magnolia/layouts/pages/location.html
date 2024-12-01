@@ -17,7 +17,9 @@
     </div>
 
     <div class="col-md-6 my-3 gallery">
-      <img class="rounded shadow" src="./river.jpg" alt="" />
+      {{ with .Resources.GetMatch "location.jpg" }}
+      <img class="rounded shadow" src="{{ .RelPermalink }}" alt="" />
+      {{ end }}
     </div>
     <div class="col-12 my-3 d-none d-md-block">
       <anchor></anchor>
@@ -31,14 +33,6 @@
         referrerpolicy="no-referrer-when-downgrade"
       ></iframe>
     </div>
-  </div>
-  <div class="d-grid gap-3 d-sm-flex justify-content-sm-center mt-4">
-    <!-- button -->
-    <a
-      class="btn btn-primary btn-lg px-5 py-3 fs-6 fw-bolder shadow-sm"
-      href="{{absLangURL ""}}{{ .Site.Params.homepage.mainButtonRef }}"
-      >{{ .Site.Params.homepage.mainButton }}</a
-    >
   </div>
 </section>
 <!-- end-grid -->

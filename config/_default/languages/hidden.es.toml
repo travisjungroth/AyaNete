@@ -7,7 +7,7 @@ contentDir = "content/es"
 
 # Change single params to "false" to remove from rendering
 [params]
-  subtitle = "Paohyan, Perú" # This goes in the header and in the site title
+  subtitle = "Paoyhan, Perú" # This goes in the header and in the site title
   # PAGES
   [params.homepage]
     # Notice that SEO meta tags (what appears in google search results) can be set
