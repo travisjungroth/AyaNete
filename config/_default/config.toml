@@ -1,6 +1,6 @@
 baseURL = 'https://example.com'
 languageCode = ''
-title = 'Ayahuasca Nete' # This can get overwritten by the single language files
+title = 'Paoyhan Ayahuasca' # This can get overwritten by the single language files
 defaultContentLanguage = 'en'
 #defaultContentLanguageInSubDir = true
 enableRobotsTXT = true

@@ -1,10 +1,28 @@
-DONE Update name
-Hide language menu
+Change Packages to Stays
 Format better
     Packages
     About
 Fill in text
-
+    Write text
+        Home
+            Fancy intro text
+        Packages
+            $100/day
+            Just list some of the options and things that happen, plus we'll be changing in April
+        About
+        Location
+            Getting there
+                Dates
+                Pucallpa
+                Boat
+        Form
+Add photos
+    Shamans
+        Olinda
+Lock in name
+Publish to Netlify
+Make facebook
+Make instagram
 
 
 Definition of done
@@ -19,6 +37,6 @@ Definition of done
 
     Readme
     Using Hugo theme
-    Call it Ayahuasca Nete
+    Call it Paoyhan Ayahuasca
     English
     Hosted on GitHub

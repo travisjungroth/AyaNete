@@ -30,14 +30,13 @@
 # Dietas
 ## Packages
 
-* 8 day ayahuasca retreat
-  * 3 ayahuasca ceremonies
-* 11 day master plant diet
+* 8 day master plant diet
   * 4 ayahuasca ceremonies
   * 3 master plant ceremonies
-* 20 day master plant diet
-  * 7 ayahuasca ceremonies
-  * 3 or 6 master plant ceremonies
+  * link to ayahuasca retreat
+* 16 day master plant diet
+  * 8 ayahuasca ceremonies
+  * 3 master plant ceremonies
 * 32 day master plant diet
   * 11 ayahuasca ceremonies
   * 3 or 6 master plant ceremonies
@@ -51,7 +50,7 @@ For stays of 20 days or more, you may diet more than one plant. We can help guid
 * Plant sauna and flower bath
 * All meals and drinks
 * All medicines: ayahuasca, your master plant and mapacho
-* All essentials: candles, mosquito coils, etc.
+* All jungle essentials: candles, mosquito coils, etc.
 
 ## Different Stays
 ### 8 day ayahuasca retreat
@@ -102,7 +101,7 @@ Jilmer is Olinda's son. He'll be one of your main contacts during your stay.
 Travis is an apprentice shaman. He's at the center a few months a year. When he's not in diet himself, he can help with guidance and translating to Spanish.
 
 ## Family
-The rest of the staff is Olinda's family. Her five children, their partners, and her grandchildren. They provide support during ceremonies, do the cooking and cleaning, and do our construction and maintenance.
+The rest of the staff is Olinda's family. Her adult children, their partners, and her grandchildren. They provide support during ceremonies, do the cooking and cleaning, and do our construction and maintenance.
 
 # Ceremonies
 
