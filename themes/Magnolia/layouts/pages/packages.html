@@ -14,30 +14,5 @@
       </div>
     </div>
   </div>
-  <div class="container overflow-hidden">
-    <div class="row gy-5 justify-content-center">
-      {{range $index, $element := .Site.Params.packages.list}}
-      <div class="col-sm-12 col-md-6 col-xl-4">
-        <div class="text-center px-xl-2">
-          <i
-            class="bi bi-check-circle-fill text-primary mb-4"
-            style="font-size: 36px"
-          ></i>
-          <h5 class="m-2">{{.title}}</h5>
-          <p class="m-0 text-muted">{{.description}}</p>
-        </div>
-      </div>
-      {{end}}
-    </div>
-  </div>
-
-  <div class="d-grid gap-3 d-sm-flex justify-content-sm-center mt-5">
-    <!-- button -->
-    <!-- <a
-      class="btn btn-primary btn-lg mt-4 px-5 py-3 fs-6 fw-bolder shadow-sm"
-      href="{{absLangURL ""}}{{ .Site.Params.homepage.mainButtonRef }}"
-      >{{ .Site.Params.homepage.mainButton }}</a
-    > -->
-  </div>
 </section>
 {{ end}}

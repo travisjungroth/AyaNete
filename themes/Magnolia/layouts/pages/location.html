@@ -17,7 +17,7 @@
     </div>
 
     <div class="col-md-6 my-3 gallery">
-      {{ with .Resources.GetMatch "location.jpg" }}
+         {{ with resources.GetMatch "img/location.*" }}
       <img class="rounded shadow" src="{{ .RelPermalink }}" alt="" />
       {{ end }}
     </div>

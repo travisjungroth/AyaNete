@@ -18,17 +18,18 @@ contentDir = "content/en"
     intro= """
 ### Authentic Ayahuasca dietas in the Amazon.
 ___
+What makes our healing center truly special is that it is **family-owned and operated by the Shipibo people**, the guardians of ancestral plant medicine. Unlike many other centers, our deep-rooted connection to this tradition grants unparalleled access to authentic Shipibo shamans, offering you a **profound and immersive healing experience**.
 
-[Some sweet intro copy]
+Nestled in a **serene location in Paoyhan**, our retreats provide a secluded and intimate setting. Here, you can fully embrace the wisdom of the plants, guided by generations of Shipibo healers in a space designed for deep transformation and self-discovery.
         """
     mainButton = "Packages"
-    mainButtonRef = "packages" # Just write the name or slug of the page here
-    secondButton = "Contact"
-    secondButtonRef = "contact" # Just write the name or slug of the page here
+    mainButtonRef = "packages" # Slug of the page
+    secondButton = "Contact Us"
+    secondButtonRef = "contact" # Slug of the page
 
 [params.contact]
   title = "Get in touch!"
-  formCallToAction = "[Form description]"
+#  formCallToAction = "[Form description]"
 #  socialCallToAction = "[Social call to action]" # These are the same as in [params.social]
   [params.contact.form]
     formspreeLink = "https://formspree.io/f/xkgnrajg"
@@ -61,14 +62,14 @@ ___
 
 [params.location]
   title = "Location"
- description = "[Location text]"
+ description = """We’re located outside of the village of Paoyhan, in a peaceful space on the edge of the jungle."""
  buttonText = "Find flights to Pucallpa, Peru"
  buttonLink = "https://www.google.com/travel/flights"
  mapLink = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31619.904959217703!2d-75.0292585!3d-7.8438707999999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91a4a1fc58da4da3%3A0x9cdf2d43604c166e!2sKene%20Nete%20Healing%20Center!5e0!3m2!1sen!2sus!4v1731264241456!5m2!1sen!2sus" # google maps "embed" link here
 
 
 [params.about]
-  title = "About"
+  title = "About Us"
   description = """[About]"""
   [params.about.list]
     [params.about.list.0]

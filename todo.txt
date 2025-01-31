@@ -1,24 +1,9 @@
-Change Packages to Stays
-Format better
-    Packages
-    About
 Fill in text
-    Write text
-        Home
-            Fancy intro text
-        Packages
-            $100/day
-            Just list some of the options and things that happen, plus we'll be changing in April
-        About
-        Location
-            Getting there
-                Dates
-                Pucallpa
-                Boat
-        Form
+
 Add photos
-    Shamans
+    Shamansx
         Olinda
+    Renaquilla
 Lock in name
 Publish to Netlify
 Make facebook
