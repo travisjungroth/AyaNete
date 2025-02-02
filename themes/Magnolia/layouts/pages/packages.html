@@ -1,18 +1,36 @@
 {{ define "main" }}
-<!-- Service 1 - Bootstrap Brain Component -->
 <section class="py-5 py-xl-8">
-  <div class="container">
-    <div class="row justify-content-md-center">
-      <div class="col-12 col-md-10 col-lg-8 col-xl-7 col-xxl-6">
-        <h2 class="mb-4 display-5 text-center">
-          {{.Site.Params.packages.title}}
-        </h2>
-        <p class="text-muted mb-5 text-justify">
-          {{.Site.Params.packages.description}}
-        </p>
-        <hr class="w-50 mx-auto mb-5 mb-xl-9 border-dark-subtle" />
+  <div class="container" style="max-width: 800px;">
+
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-10">
+        <div>
+          <h1 class="display-2">{{.Site.Params.packages.title}}</h1>
+          <p>{{ .Site.Params.packages.intro | markdownify }}</p>
+        </div>
+        <div>
+          {{ .Site.Params.packages.description | markdownify }}
+        </div>
+        <div>
+            <a class="btn btn-primary btn-lg px-5 py-3 fs-6 fw-bolder shadow-sm"
+            href="{{ .Site.Params.packages.mainButtonRef }}"
+            >{{ .Site.Params.packages.mainButton }}</a
+          >
+        </div>
       </div>
     </div>
+
+    <hr class="w-50 mx-auto my-5 border-dark-subtle" />
+
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-10">
+        <div>
+          {{ .Site.Params.packages.other | markdownify }}
+        </div>
+      </div>
+    </div>
+
+
   </div>
 </section>
-{{ end}}
+{{ end }}

@@ -40,25 +40,30 @@ Nestled in a **serene location in Paoyhan**, our retreats provide a secluded and
     Inquiry = "Inquiry*"
     submitBtn = "Submit"
 
+# In your .en.toml file
 [params.packages]
   title = "Packages"
-  description = """[Packages]"""
-  [params.packages.list]
-    [params.packages.list.0]
-      title= "8 Day Ayahuasca Retreat"
-      description= "[8 days]"
-    [params.packages.list.01]
-      title = "11 Day Master Plant Dieta"
-      description= "[11 days]"
-    [params.packages.list.02]
-      title = "20 Day Master Plant Dieta"
-      description= "[20 days]"
-    [params.packages.list.03]
-      title = "32 Day Master Plant Dieta"
-      description= "[32 Days]"
-    [params.packages.list.04]
-      title = "Custom Stays"
-      description= "We can accomodate different lengths or longer stays. Just ask!"
+
+  intro = """Enjoy flexibility in your stay at just **$100 per day**, allowing you to tailor and adjust your experience to your unique needs.
+
+From April, **we'll be changing to scheduled retreats** with fixed prices. This is to allow for your best experience, with groups of like-minded people. It also allows our shamans to have respite between ceremonies – allowing you the highest quality experience."""
+
+    mainButton = "Contact Us"
+    mainButtonRef = "Contact" # Slug of the page
+
+  description = """## **Included:**
+
+* **Food and Drink** - We take care of all your meals and drinks so you can focus your energy on immersing in the experience.
+* **Plant Sauna** – Sweat out toxins and absorb the medicinal properties of Amazonian plants in a deeply purifying experience.
+* **Flower Bath** – A sacred ritual using fragrant flowers and healing plants to cleanse your body.
+* **Medicines** - Ayahuasca, your master plant and mapacho will be authentically and directly sourced for you.
+
+## What you're paying for
+
+Your cost goes towards your stay at the accommodation.
+We don't charge for medicine or treatments. By doing it this way, it means we assess your individual needs, only giving you the treatments and medicines we believe are right for you.
+  """
+
 
 [params.location]
   title = "Location"
