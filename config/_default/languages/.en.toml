@@ -40,7 +40,6 @@ Nestled in a **serene location in Paoyhan**, our retreats provide a secluded and
     Inquiry = "Inquiry*"
     submitBtn = "Submit"
 
-# In your .en.toml file
 [params.packages]
   title = "Packages"
 
@@ -63,6 +62,111 @@ From April, **we'll be changing to scheduled retreats** with fixed prices. This 
 Your cost goes towards your stay at the accommodation.
 We don't charge for medicine or treatments. By doing it this way, it means we assess your individual needs, only giving you the treatments and medicines we believe are right for you.
   """
+
+[params.guide]
+title = "Guide"
+description = """
+_Why embark on this journey?_
+
+### Healing
+
+Our retreat is a sanctuary for those seeking profound healing - whether you are:
+
+* Releasing **past traumas**
+* Finding clarity at a **life crossroads**
+* Seeking relief from **physical ailments**
+
+## Learning
+
+Open your mind to connect with the power of plants:
+
+* Learn the **Shipibo language and traditions.**
+* Resonate with, and be **guided by the plants**.
+* Develop your own **spiritual abilities.**
+
+## Ayahuasca Ceremonies
+
+Held **every two or three nights**, depending on your stay, our ceremonies are guided by **powerful icaros** - sacred healing songs sung by the shamans, to help navigate your journey.
+
+Here, under the watchful care of experienced healers, you will explore the depths of your consciousness and receive the medicine’s wisdom in a **safe and supportive space**.
+
+## Dieta
+
+_What is a dieta?_
+
+This is a dedicated period where the person follows specific dietary behaviours to strengthen their spiritual connection with the plant.
+
+## Food
+
+We abstain from:
+
+* Salt
+* Sugar
+* Oil
+* Spices
+* Red meat
+* Pork
+
+
+We eat:
+
+* Grains
+* Fruit
+* Vegetables
+* Eggs
+* Chicken
+* Fish
+
+*We can cater to **vegan and vegetarian** diets.*
+
+### Restrictions
+
+* Limited conversation.
+* Focus on the connection with the plant.
+* No internet or books.
+
+### Preparation
+
+We encourage starting the food diet five days ahead of arrival.
+Be off medications and abstain from sexual activity.
+
+### Post Dieta
+
+To bring your journey to a close and reap the best benefits, continue the dieta for approximately five days post retreat, depending on length of your dieta.
+
+### Plants
+
+In your dieta, you will connect with another plant. These are called **teacher plants or master plants**.
+
+Different plants have different unique properties. We'll discuss with you when you arrive to determine your plant. Please let us know if there's a specific plant you're called to.
+
+Examples of some of the plants we work with:
+
+* Bobinsana
+* Chiric Sanango
+* Renaquilla
+* Renaco
+* Tamamoori
+* Noya Rao
+
+### Length
+
+* We recommend a **minimum of a week** for the true immersive experience and full benefits.
+* We find most people do **up to 30 days**.
+* Certain plants, like trees, call for a longer dieta.
+* If you do 20 days or more, you may diet two plants, one after the other.
+
+## Ayahuasca Retreat: A Transformational Journey
+
+If you're new to ayahuasca or have commitments at home, an **ayahuasca retreat** offers a powerful way to experience the medicine without the deeper commitment of a plant dieta.
+
+A **plant dieta** requires **completing** the full process once started, as it is a crucial part of forming a profound spiritual connection with specific healing plants. However, an ayahuasca retreat **follows the same ceremonial process without opening a dieta**, allowing for flexibility and the option to stop if needed.
+
+This makes an ayahuasca retreat an ideal choice if you:
+
+* Are exploring ayahuasca for the first time
+* Have responsibilities that may require you to leave early
+* Want to experience the healing power of ayahuasca without a long-term dieta commitment"""
 
 
 [params.location]
@@ -144,18 +248,22 @@ It’s a family-run center, with the rest of the staff being her adult children,
   pageRef = "/"
   weight = 1
   [[menus.main]]
+  name = "Guide"
+  pageRef = "pages/guide"
+  weight = 2
+  [[menus.main]]
   name = "Packages"
   pageRef = "pages/packages"
-  weight = 2
+  weight = 3
   [[menus.main]]
   name = "About Us"
   pageRef = "pages/about"
-  weight = 3
+  weight = 4
   [[menus.main]]
   name = "Location"
   pageRef = "pages/location"
-  weight = 4
+  weight = 5
   [[menus.main]]
   name = "Contact"
   pageRef = "pages/contact"
-  weight = 5
+  weight = 6
