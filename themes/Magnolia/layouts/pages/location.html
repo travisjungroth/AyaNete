@@ -1,10 +1,10 @@
 {{ define "main"}}
 
 <!-- grid -->
-<section class="grid">
-  <div class="row justify-content-between">
-    <div class="col-md-6 my-3">
-      <div class="d-flex flex-column h-100 justify-content-center">
+<div class="container" style="max-width: 1000px;">
+  <div class="row">
+    <div class="col-md-7 my-3 my-md-4">
+      <div class="d-flex flex-column h-100 justify-content-center align-items-sm-start">
         <h1 class="display-2">{{.Site.Params.location.title}}</h1>
         <p>{{ .Site.Params.location.description  | markdownify }}</p>
         <a
@@ -15,23 +15,45 @@
         >
       </div>
     </div>
-
-    <div class="col-md-6 my-3 gallery">
+    <div class="col-md-5 my-3 gallery">
       {{ with resources.GetMatch "img/location.*" }}
       <img class="rounded shadow" src="{{ .RelPermalink }}" alt="" />
       {{ end }}
     </div>
+    <div class="col-12">
+
+    </div>
+  </div>
+</div>
+<div class="container" style="max-width: 800px;">
+  <div class="row">
+
 
     <!-- Travel Information -->
-    <div class="col-12 my-4">
+    <div class="col-12 my-3 my-md-4">
       {{ with .Site.Params.location.travel }}
       <div class="travel-info">
+        <hr class="mt-0 mb-4 mx-auto w-75 border-dark-subtle">
         {{ . | markdownify }}
+        <hr class="mt-4 mb-0 mx-auto w-75 border-dark-subtle">
       </div>
       {{ end }}
     </div>
 
+    <div class="col-md-6 col-xl-6 my-3 gallery">
+      {{ with resources.GetMatch "img/speedboats.*" }}
+      <img class="rounded shadow" src="{{ .RelPermalink }}" alt="" />
+      {{ end }}
+    </div>
+
+    <div class="col-md-6 col-xl-6 my-3 gallery">
+      {{ with resources.GetMatch "img/building-1.*" }}
+      <img class="rounded shadow" src="{{ .RelPermalink }}" alt="" />
+      {{ end }}
+    </div>
+
     <div class="col-12 my-3 d-none d-md-block">
+      <hr class="mb-5 mx-auto w-75 border-dark-subtle">
       <anchor></anchor>
       <iframe
         class="rounded border border-3 border-light shadow"
@@ -44,6 +66,6 @@
       ></iframe>
     </div>
   </div>
-</section>
+</div>
 <!-- end-grid -->
 {{ end }}

@@ -1,33 +1,4 @@
-/* CUSTOM FONTS */
-@font-face {
-  font-family: 'JosefinSans';
-  src: url(../fonts/JosefinSans-VariableFont_wght.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'YesevaOne';
-  src: url(../fonts/YesevaOne-Regular.ttf) format('truetype');
-}
-
-/* ICONS */
-@font-face {
-  font-family: bootstrap-icons;
-  src: url(../fonts/bootstrap-icons.woff);
-}
-@import 'node_modules/bootstrap-icons/font/bootstrap-icons.scss';
-/*  */
-
-/* FUNCTIONS (from bootstrap, imported before bootstrap in order to define custom variables) */
-// Tint a color: mix a color with white
-@function tint-color($color, $weight) {
-  @return mix(white, $color, $weight);
-}
-
-// Shade a color: mix a color with black
-@function shade-color($color, $weight) {
-  @return mix(black, $color, $weight);
-}
-
-/* REDEFINE REQUIRED VARIABLES */
+/* VARIABLES */
 
 /* body color and background */
 $body-bg: #e8d6cb;
@@ -45,14 +16,51 @@ $input-focus-border-color: $body-color;
 $input-btn-focus-box-shadow: 0 0 1px 2px $body-color;
 $border-color: tint-color($body-color, 65%);
 
+/* path */
+$fonts: '../fonts';
+
+/* FUNCTIONS (from bootstrap, imported before bootstrap in order to define custom variables) */
+// Tint a color: mix a color with white
+@function tint-color($color, $weight) {
+  @return mix(white, $color, $weight);
+}
+
+// Shade a color: mix a color with black
+@function shade-color($color, $weight) {
+  @return mix(black, $color, $weight);
+}
+
+/* CUSTOM FONTS */
+@font-face {
+  font-family: 'JosefinSans';
+  src: url('#{$fonts}/JosefinSans-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'YesevaOne';
+  src: url('#{$fonts}/YesevaOne-Regular.ttf') format('truetype');
+}
+
+/* ICONS */
+@font-face {
+  font-family: bootstrap-icons;
+  src: url('#{$fonts}/bootstrap-icons.woff');
+}
+
 /* IMPORT CUSTOM VARIABLES */
 @import 'custom-variables.scss';
 
 /* IMPORT BOOTSTRAP */
+@import 'node_modules/bootstrap-icons/font/bootstrap-icons.scss';
 @import 'node_modules/bootstrap/scss/bootstrap.scss';
 
 html {
   scroll-padding-top: 100px;
+  /* Font smoothing */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-optical-sizing: auto;
+  text-rendering: optimizeLegibility;
 }
 
 main {
@@ -63,6 +71,7 @@ main {
 .bi {
   font-size: 1.25rem;
 }
+
 /*  */
 
 .background-image {
@@ -71,12 +80,8 @@ main {
   background-repeat: no-repeat;
   background-size: cover;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+
+h1, h2, h3, h4, h5, h6 {
   font-family: YesevaOne;
 }
 
@@ -88,18 +93,25 @@ p {
 
 .navbar {
   background-color: shade-color($body-bg, 3%);
-  font-family:
-    system-ui,
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    Oxygen,
-    Ubuntu,
-    Cantarell,
-    'Open Sans',
-    'Helvetica Neue',
-    sans-serif;
+  font-family: system-ui,
+  -apple-system,
+  BlinkMacSystemFont,
+  'Segoe UI',
+  Roboto,
+  Oxygen,
+  Ubuntu,
+  Cantarell,
+  'Open Sans',
+  'Helvetica Neue',
+  sans-serif;
+
+  &-toggler {
+    --bs-navbar-toggler-padding-x: .25rem;
+    --bs-navbar-toggler-padding-y: .5rem;
+    --bs-border-width: 0;
+    --bs-navbar-toggler-border-color: transparent;
+    box-shadow: none !important;
+  }
 }
 
 .logo {
@@ -125,14 +137,17 @@ p {
       transform: scaleX(0);
       transition: transform 0.4s ease-in-out;
     }
+
     &:hover {
       color: $body-color;
     }
+
     &:hover::after {
       transform-origin: left;
       transform: scaleX(1);
     }
   }
+
   .nav-trad {
     position: relative;
     text-transform: uppercase;
@@ -142,9 +157,11 @@ p {
     &:hover {
       color: $body-color;
     }
+
     i {
       font-size: 15px;
     }
+
     &::after {
       font-size: 25px;
     }
@@ -157,6 +174,7 @@ p {
 button {
   font-family: JosefinSans;
 }
+
 /* END-BUTTONS */
 
 /* PROFILE PICTURE */
@@ -166,17 +184,20 @@ button {
   width: 100%;
   object-fit: cover;
 }
+
 /* END-PROFILE-PICTURE */
 
 /* OFFICE */
 .gallery {
   max-height: 35vh;
+
   img {
     width: 100%;
     height: 100%;
     object-fit: cover;
   }
 }
+
 /* END-OFFICE */
 
 /* FOOTER */
@@ -186,42 +207,42 @@ footer {
 
   h6,
   p {
-    font-family:
-      system-ui,
-      -apple-system,
-      BlinkMacSystemFont,
-      'Segoe UI',
-      Roboto,
-      Oxygen,
-      Ubuntu,
-      Cantarell,
-      'Open Sans',
-      'Helvetica Neue',
-      sans-serif;
+    font-family: system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    'Open Sans',
+    'Helvetica Neue',
+    sans-serif;
   }
 
   hr {
     width: 60px;
-    background-color: $body-bg;
+    border-color: #aaa096 !important;
+    background-color: #aaa096;
     height: 2px;
   }
 }
 
 .copyright {
   background-color: shade-color($body-bg, 15%);
+
   p {
-    font-family:
-      system-ui,
-      -apple-system,
-      BlinkMacSystemFont,
-      'Segoe UI',
-      Roboto,
-      Oxygen,
-      Ubuntu,
-      Cantarell,
-      'Open Sans',
-      'Helvetica Neue',
-      sans-serif;
+    font-family: system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    'Open Sans',
+    'Helvetica Neue',
+    sans-serif;
     font-weight: 300;
   }
 }
@@ -240,6 +261,7 @@ footer {
     top: 120px;
   }
 }
+
 /* END SINGLE POST */
 
 /* POST GRID */
@@ -264,7 +286,63 @@ footer {
 .dark-overlay {
   opacity: 10%;
 }
+
 /*  */
 
 /* IMPORTING CUSTOM CSS */
 @import 'custom.scss';
+
+hr {
+  width: 60%;
+  max-width: 400px;
+  border-color: var(--bs-dark-border-subtle) !important;
+  margin: 2rem auto;
+}
+
+.img-content-left {
+  margin: 3rem auto 1rem;
+  display: block;
+  @include media-breakpoint-up(sm) {
+    max-width: 400px;
+  }
+  @include media-breakpoint-up(md) {
+    max-width: 300px;
+    margin: 0 2rem 1rem -2rem;
+    float: left;
+    clear: both;
+  }
+  @include media-breakpoint-up(xl) {
+    margin-left: -2rem;
+    margin-right: 2rem;
+  }
+}
+
+.img-content-right {
+  margin: 3rem auto 1rem;
+  display: block;
+  @include media-breakpoint-up(sm) {
+    max-width: 400px;
+  }
+  @include media-breakpoint-up(md) {
+    max-width: 300px;
+    margin: 0 -2rem 1rem 2rem;
+    float: right;
+    clear: both;
+  }
+  @include media-breakpoint-up(xl) {
+    margin-right: -2rem;
+    margin-left: 2rem;
+  }
+}
+
+.img-content-centered {
+  margin: 2rem auto;
+  display: block;
+  @include media-breakpoint-up(sm) {
+    max-width: 400px;
+  }
+  @include media-breakpoint-up(md) {
+    max-width: 560px;
+    margin: 3rem auto;
+  }
+}

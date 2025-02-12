@@ -45,17 +45,23 @@ Nestled in a **serene location in Paoyhan**, our retreats provide a secluded and
 
   intro = """Enjoy flexibility in your stay at just **$100 per day**, allowing you to tailor and adjust your experience to your unique needs.
 
-From April, **we'll be changing to scheduled retreats** with fixed prices. This is to allow for your best experience, with groups of like-minded people. It also allows our shamans to have respite between ceremonies – allowing you the highest quality experience."""
+From April, **we'll be changing to scheduled retreats** with fixed prices. This is to allow for your best experience, with groups of like-minded people. It also allows our shamans to have respite between ceremonies – allowing you the highest quality experience.
+
+---
+"""
 
     mainButton = "Contact Us"
     mainButtonRef = "Contact" # Slug of the page
 
-  description = """## **Included:**
+  description = """
+## **Included:**
 
 * **Food and Drink** - We take care of all your meals and drinks so you can focus your energy on immersing in the experience.
 * **Plant Sauna** – Sweat out toxins and absorb the medicinal properties of Amazonian plants in a deeply purifying experience.
 * **Flower Bath** – A sacred ritual using fragrant flowers and healing plants to cleanse your body.
 * **Medicines** - Ayahuasca, your master plant and mapacho will be authentically and directly sourced for you.
+
+![Nature](/img/nature-1.jpg "img-fluid rounded shadow img-content-centered")
 
 ## What you're paying for
 
@@ -68,6 +74,7 @@ title = "Guide"
 description = """
 _Why embark on this journey?_
 
+![Bird](/img/bird.jpg "img-fluid rounded shadow img-content-center mt-3 mb-4")
 ### Healing
 
 Our retreat is a sanctuary for those seeking profound healing - whether you are:
@@ -76,7 +83,7 @@ Our retreat is a sanctuary for those seeking profound healing - whether you are:
 * Finding clarity at a **life crossroads**
 * Seeking relief from **physical ailments**
 
-## Learning
+## Learning {class="mt-5"}
 
 Open your mind to connect with the power of plants:
 
@@ -84,19 +91,21 @@ Open your mind to connect with the power of plants:
 * Resonate with, and be **guided by the plants**.
 * Develop your own **spiritual abilities.**
 
-## Ayahuasca Ceremonies
+![Nature](/img/nature-3.jpg "img-fluid rounded shadow img-content-right mt-3 mb-4")
+## Ayahuasca Ceremonies {class="mt-5"}
 
 Held **every two or three nights**, depending on your stay, our ceremonies are guided by **powerful icaros** - sacred healing songs sung by the shamans, to help navigate your journey.
 
 Here, under the watchful care of experienced healers, you will explore the depths of your consciousness and receive the medicine’s wisdom in a **safe and supportive space**.
 
-## Dieta
+## Dieta {class="mt-5"}
 
 _What is a dieta?_
 
 This is a dedicated period where the person follows specific dietary behaviours to strengthen their spiritual connection with the plant.
 
-## Food
+![Nature](/img/nature-2.jpg "img-fluid rounded shadow img-content-right mt-3 mt-md-5")
+## Food {class="mt-5"}
 
 We abstain from:
 
@@ -119,21 +128,22 @@ We eat:
 
 *We can cater to **vegan and vegetarian** diets.*
 
-### Restrictions
+### Restrictions {class="mt-5"}
 
 * Limited conversation.
 * Focus on the connection with the plant.
 * No internet or books.
 
-### Preparation
+### Preparation {class="mt-5"}
 
 We encourage starting the food diet five days ahead of arrival.
 Be off medications and abstain from sexual activity.
 
-### Post Dieta
+### Post Dieta {class="mt-5"}
 
 To bring your journey to a close and reap the best benefits, continue the dieta for approximately five days post retreat, depending on length of your dieta.
 
+![Nature](/img/nature-4.jpg "img-fluid rounded shadow img-content-center mt-3 mb-4")
 ### Plants
 
 In your dieta, you will connect with another plant. These are called **teacher plants or master plants**.
@@ -149,6 +159,7 @@ Examples of some of the plants we work with:
 * Tamamoori
 * Noya Rao
 
+![Building](/img/building-2.jpg "img-fluid rounded shadow img-content-left my-2 my-md-3 mt-lg-0")
 ### Length
 
 * We recommend a **minimum of a week** for the true immersive experience and full benefits.
@@ -156,7 +167,7 @@ Examples of some of the plants we work with:
 * Certain plants, like trees, call for a longer dieta.
 * If you do 20 days or more, you may diet two plants, one after the other.
 
-## Ayahuasca Retreat: A Transformational Journey
+## Ayahuasca Retreat: A Transformational Journey {class="mt-5" style="clear:both"}
 
 If you're new to ayahuasca or have commitments at home, an **ayahuasca retreat** offers a powerful way to experience the medicine without the deeper commitment of a plant dieta.
 
@@ -166,7 +177,11 @@ This makes an ayahuasca retreat an ideal choice if you:
 
 * Are exploring ayahuasca for the first time
 * Have responsibilities that may require you to leave early
-* Want to experience the healing power of ayahuasca without a long-term dieta commitment"""
+* Want to experience the healing power of ayahuasca without a long-term dieta commitment
+
+![Bird](/img/bird-2.jpg "img-fluid rounded shadow img-content-center mt-3")
+
+"""
 
 
 [params.location]
@@ -202,10 +217,14 @@ Olinda has a wealth of knowledge and experience, starting her path as a shaman o
 She is now a master shaman and Great Grandmother. She is renowned for her wisdom of the plants and in ceremonies helps people find their strength to complete their journeys.
 """
 
-  other = """### Other Shamans
+  other = """
+### Other Shamans
 Olinda is supported by other shamans in her extended family that join the ceremonies. They bring their own wealth of knowledge and unique skill sets.
 
-### Family
+---
+
+![Bananas](/img/bananas.jpg "img-fluid rounded shadow img-content-right")
+### Family {class="mt-4"}
 It’s a family-run center, with the rest of the staff being her adult children, their partners, and her grandchildren. They provide support during ceremonies, assist with the cooking and cleaning, as well as helping with construction and maintenance.
 """
 
