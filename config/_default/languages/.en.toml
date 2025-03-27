@@ -230,7 +230,7 @@ It’s a family-run center, with the rest of the staff being her adult children,
 
 
 [params.socials]
-  enabled = true # enables/disables the whole social section in the footer
+  enabled = false # enables/disables the whole social section in the footer
   callToAction= "Get connected with us on social networks >"
       [[params.socials.link]]
         name = "facebook"
