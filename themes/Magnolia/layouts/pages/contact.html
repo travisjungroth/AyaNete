@@ -150,21 +150,21 @@
 
     <!-- /.row-->
   </div>
-  <div class="row justify-content-center">
-    <div class="col-lg-8">
-      <p class="text-center text-muted mb-4">
-        {{.Site.Params.contact.socialCallToAction}}
-      </p>
-    </div>
-  </div>
-  <div class="row justify-content-around">
-    {{ range .Site.Params.socials.link }}
-    <div class="col-4 mb-4 d-flex justify-content-center">
-      <a href="{{ .link }}">
-        <i class="display-2 bi-{{ .name }} "></i>
-      </a>
-    </div>
-    {{ end}}
-  </div>
+<!--  <div class="row justify-content-center">-->
+<!--    <div class="col-lg-8">-->
+<!--      <p class="text-center text-muted mb-4">-->
+<!--        {{.Site.Params.contact.socialCallToAction}}-->
+<!--      </p>-->
+<!--    </div>-->
+<!--  </div>-->
+<!--  <div class="row justify-content-around">-->
+<!--    {{ range .Site.Params.socials.link }}-->
+<!--    <div class="col-4 mb-4 d-flex justify-content-center">-->
+<!--      <a href="{{ .link }}">-->
+<!--        <i class="display-2 bi-{{ .name }} "></i>-->
+<!--      </a>-->
+<!--    </div>-->
+<!--    {{ end}}-->
+<!--  </div>-->
 </div>
 {{ end }}
