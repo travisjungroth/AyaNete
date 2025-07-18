@@ -248,7 +248,7 @@ It’s a family-run center, with the rest of the staff being her adult children,
   [params.footer.navigate]
   heading = "Navigate"   
   [params.footer.contacts]
-  enabled = true # enables/disables the whole contacts section in footer
+  enabled = false # enables/disables the whole contacts section in footer
   heading = "Contact"
   mail = "jungroth@gmail.com"
   phone = "+1-707-812-4818"
