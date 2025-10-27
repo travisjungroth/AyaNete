@@ -1,7 +1,7 @@
 disabled = false
 languageCode = 'en'
 languageName = 'English'
-title = 'Paoyhan Ayahuasca' # This will go in the Header as well
+title = 'Ayahuasca Nete' # This will go in the Header as well
 contentDir = "content/en"
 
 
@@ -13,7 +13,7 @@ contentDir = "content/en"
     # Notice that SEO meta tags (what appears in google search results) can be set
     # in individual pages frontmatters `/content/<page>`
     ###
-    title = "Paoyhan Ayahuasca"
+    title = "Ayahuasca Nete"
     # You can use some markdown safely here as long as you don't include line breaks
     intro= """
 ### Authentic Ayahuasca dietas in the Amazon.
