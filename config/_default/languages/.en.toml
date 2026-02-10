@@ -52,7 +52,7 @@ Nestled in a **serene location in Paoyhan**, our retreats provide a secluded and
 """
 
     mainButton = "Contact Us"
-    mainButtonRef = "contact" # Slug of the page
+    mainButtonRef = "/contact" # Slug of the page
 
   description = """
 ## **Included:**
