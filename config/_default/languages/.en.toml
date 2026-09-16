@@ -17,7 +17,7 @@ contentDir = "content/en"
     # You can use some markdown safely here as long as you don't include line breaks
     intro= """
 ### Authentic Ayahuasca dietas in the Amazon.
-___
+
 **2026 - 2027 Retreat Dates**
 
 ```markdown
@@ -46,7 +46,6 @@ ___
 
 - **August 13 – September 1**  
   *20-Day Master Plant Residency*
-```
 
 *If you require a longer dieta, please get in touch with us. Additional dates may be made available according to your needs.*
 
