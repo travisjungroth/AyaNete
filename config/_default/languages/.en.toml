@@ -13,7 +13,7 @@ contentDir = "content/en"
     # Notice that SEO meta tags (what appears in google search results) can be set
     # in individual pages frontmatters `/content/<page>`
     ###
-    title = "Ayahuasca Nete"
+    title = "Aya Nete"
     # You can use some markdown safely here as long as you don't include line breaks
     intro= """
 ### Authentic Ayahuasca dietas in the Amazon.
