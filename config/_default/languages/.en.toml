@@ -1,7 +1,7 @@
 disabled = false
 languageCode = 'en'
 languageName = 'English'
-title = 'Ayahuasca Nete' # This will go in the Header as well
+title = 'Aya Nete' # This will go in the Header as well
 contentDir = "content/en"
 
 
